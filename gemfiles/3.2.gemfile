@@ -9,6 +9,6 @@ group :test do
   gem "timecop"
   gem "rails", "~>3.2.12"
   gem "sqlite3", :platform => [:ruby, :mswin, :mingw]
-  gem "capybara"
+  gem "capybara", '~> 2.6.0'
   # gem "activerecord-jdbcsqlite3-adapter", :platform => :jruby
 end

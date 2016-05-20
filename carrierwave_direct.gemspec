@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "timecop"
   s.add_development_dependency "rails", ">= 3.2.12"
   s.add_development_dependency "sqlite3"
-  s.add_development_dependency "capybara"
+  s.add_development_dependency "capybara", '~> 2.6.0'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
